@@ -1,4 +1,4 @@
-<p id="notice"><%= notice %></p>
+<p id="notice"><%= notice %></li>
 
 <h1>
   <%= @joblist.company %>
@@ -6,138 +6,136 @@
 
 <h2>会社概要</h2>
 
-<p>
-  <strong>設立年:</strong>
-  <%= @joblist.data1 %>
-</p>
+<ul data-role="listview">
+<li>
+  <strong>設立年</strong>
+</li>
+<%= @joblist.data1 %>
 
-<p>
-  <strong>正社員数:</strong>
-  <%= @joblist.data2 %>
-</p>
+<li>
+  <strong>正社員数</strong>
+</li>
+<%= @joblist.data2 %>
 
-<p>
-  <strong>パート、契約社員数:</strong>
-  <%= @joblist.data3 %>
-</p>
+<li>
+  <strong>パート、契約社員</strong>
+</li>
+<%= @joblist.data3 %>
 
-<p>
-  <strong>男性社員数:</strong>
-  <%= @joblist.data4 %>
-</p>
 
-<p>
-  <strong>女性社員数:</strong>
-  <%= @joblist.data5 %>
-</p>
+<li>
+  <strong>男性社員数</strong>
+</li>
+<%= @joblist.data4 %>
 
-<p>
-  <strong>資本金:</strong>
-  <%= @joblist.data6 %>
-</p>
 
-<p>
-  <strong>業種:</strong>
-  <%= @joblist.data7 %>
-</p>
+<li>
+  <strong>女性社員数</strong>
+</li>
+<%= @joblist.data5 %>
 
-<p>
-  <strong>代表者:</strong>
-  <%= @joblist.data8 %>
-</p>
+<li>
+  <strong>資本金</strong>
+</li>
+<%= @joblist.data6 %>
 
-<p>
-  <strong>担当窓口:</strong>
-  <%= @joblist.data9 %>
-</p>
+<li>
+  <strong>業種</strong>
+</li>
+<%= @joblist.data7 %>
 
-<p>
-  <strong>事業内容:</strong>
-  <%= @joblist.data10 %>
-</p>
+<li>
+  <strong>代表者</strong>
+</li>
+<%= @joblist.data8 %>
 
-<p>
-  <strong>離職率:</strong>
-  <%= @joblist.data11 %>
-</p>
+<li>
+  <strong>担当窓口</strong>
+</li>
+<%= @joblist.data9 %>
+
+<li>
+  <strong>事業内容</strong>
+</li>
+<%= @joblist.data10 %>
+
+<li>
+  <strong>離職率</strong>
+</li>
+<%= @joblist.data11 %>
 
 <h2>社員インタビュー</h2>
-<p>
-  <strong>インタビュー者名:</strong>
-  <%= @joblist.data12 %>
-</p>
+<li>
+  <strong>インタビュー者名</strong>
+</li>
+<%= @joblist.data12 %><%= @joblist.data13 %><%= @joblist.data14 %>
 
-<p>
-  <strong>入社年:</strong>
-  <%= @joblist.data13 %>
-</p>
 
-<p>
-  <strong>歳:</strong>
-  <%= @joblist.data14 %>
-</p>
+<li>
+  <strong>入社のきっかけ</strong>
+</li>
+<%= @joblist.data15 %>
 
-<p>
-  <strong>入社のきっかけ:</strong>
-  <%= @joblist.data15 %>
-</p>
+<li>
+  <strong>日常業務の内容</strong>
+</li>
+<%= @joblist.data16 %>
 
-<p>
-  <strong>日常業務の内容:</strong>
-  <%= @joblist.data16 %>
-</p>
-
-<p>
-  <strong>月平均残業時間:</strong>
-  <%= @joblist.data17 %>
-</p>
+<li>
+  <strong>月平均残業時間</strong>
+</li>
+<%= @joblist.data17 %>
 
 <h2>代表者からのメッセージ</h2>
 
-<p>
-  <strong>当社の強み:</strong>
-  <%= @joblist.data18 %>
-</p>
+<li>
+  <strong>当社の強み</strong>
+</li>
+<%= @joblist.data18 %>
 
-<p>
-  <strong>これからの会社目標:</strong>
-  <%= @joblist.data19 %>
-</p>
+<li>
+  <strong>これからの会社目標</strong>
+</li>
+<%= @joblist.data19 %>
 
-<p>
-  <strong>理想の社員:</strong>
-  <%= @joblist.data20 %>
-</p>
+<li>
+  <strong>理想の社員</strong>
+</li>
+<%= @joblist.data20 %>
 
-<p>
-  <strong>教育制度及び福利厚生:</strong>
-  <%= @joblist.data21 %>
-</p>
+<li>
+  <strong>教育制度及び福利厚生</strong>
+</li>
+<%= @joblist.data21 %>
 
-<p>
-  <strong>入社してくるみなさんに期待すること:</strong>
-  <%= @joblist.data22 %>
-</p>
+<li>
+  <strong>入社してくるみなさんに期待すること</strong>
+</li>
+<%= @joblist.data22 %>
 
-<p>
-  <strong>社内イベント:</strong>
-  <%= @joblist.data23 %>
-</p>
+<li>
+  <strong>社内イベント</strong>
+</li>
+<%= @joblist.data23 %>
 
-<p>
-  <strong>必須質問:</strong>
-  <%= @joblist.data24 %>
-</p>
+<li>
+  <strong>必須質問</strong>
+</li>
+<%= @joblist.data24 %>
 
-<p>
-  <strong>レポート後記:</strong>
-  <%= @joblist.data25 %>
-</p>
+<li>
+  <strong>レポート後記</strong>
+</li>
+<%= @joblist.data25 %>
 
-<p>
-  <strong>こんな感じの人事でした:</strong>
-  <%= @joblist.data26 %>
-</p>
+<li>
+  <strong>こんな感じの人事でした</strong>
+</li>
+<%= @joblist.data26 %>
+<br>
+<%= link_to "Home", "/"%>
+</div>
+
 <!--
 <%= link_to 'Edit', edit_joblist_path(@joblist) %> |
 <%= link_to 'Back', joblists_path %>
